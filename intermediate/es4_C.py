@@ -6,7 +6,6 @@ def solve_production():
     model = cp_model.CpModel()
 
     num_jobs = 4
-    num_machines = 2
     job_duration = [3, 2, 4, 2]
     earliest_time = [0, 1, 0, 3]
     
